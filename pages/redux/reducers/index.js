@@ -4,7 +4,7 @@ import getStudentsReducer from './getStudents';
 
 const indexReducer = combineReducers({
     login: loginUserReducer,
-    students: getStudentsReducer,
+    getStudents: getStudentsReducer,
 });
 
 export default indexReducer;

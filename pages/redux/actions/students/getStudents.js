@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import axios from 'axios';
 import {
-    FETCH_STUDENTS_START, FETCH_STUDENTS_SUCCESS, FETCH_STUDENTS_FAIL } from '../actionTypes';
+    FETCH_STUDENTS_START, FETCH_STUDENTS_SUCCESS, FETCH_STUDENTS_FAIL } from '../actionsTypes/ActionsTypes';
 
 export const fetchStudentsStart = () => ({
   type: FETCH_STUDENTS_START,

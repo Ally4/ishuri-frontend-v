@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from '../slices/counterSlice'
 import LandingPage from "../pages/components/landingPage"
+import Students from './components/students'
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
 
     <h1>The landing page</h1>
     <LandingPage />
+    <Students />
       
 
 
